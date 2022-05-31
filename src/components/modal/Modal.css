@@ -1,0 +1,99 @@
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  color: #FFF;
+  margin: 20px;
+}
+
+.btn-close {
+  background-color: #9b3f3f;
+}
+
+.btn-close:active {
+  background-color: #9b3f3f;
+  transform: translateY(2px);
+}
+
+.btn-confirm {
+  background-color: #46924c;
+}
+
+.btn-confirm:active {
+  background-color: #46924c;
+  transform: translateY(2px);
+}
+
+.modalWrapper {
+  width: 500px;
+  min-height: 400px;
+  background: #FFF;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  line-height: 1.8;
+  color: #141414;
+  font-weight: bold;
+}
+
+.modalContent label {
+  font-weight: normal;
+  margin-left: 5px;
+  word-wrap: break-word;
+}
+
+.modalContent p {
+  margin-bottom: 1rem;
+}
+
+.modalContent button {
+  padding: 10px 24px;
+  background: #141414;
+  color: #FFF;
+  border: none;
+}
+
+.tecno_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tecno_div span {
+  font-weight: normal;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+}

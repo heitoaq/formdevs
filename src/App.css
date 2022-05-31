@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
   min-height: 100vh;
+  background-size: cover;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background: #93E0EE;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.title {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form p{
+  padding-top: 1.2rem;
+  font-weight: bold;
+}
+
+.form span {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #f52727;
+}
+
+.form input[type="text"], input[type="email"], input[type="number"] {
+  width: 50%;
+  font-size: 16px;
+  padding: 0.25em 0.5em;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form input[type="text"]:focus, input[type="email"]:focus , input[type="number"]:focus {
+  background: #ebebeb;
+}
+
+.form input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form input, p, label, select, h2, textarea {
+  margin: 5px 10px 5px 10px;
+}
+
+.form input[type="radio"] {
+  margin: 5px 10px 5px 0;
+}
+
+.form select {
+  width: 90px;
+  outline: none;
+  cursor: pointer;
+  height: 24px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 0.2rem;
+}
+
+.formText {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.formText textarea {
+  margin: 10px;
+  padding: 5px;
+  width: 96%;
+  resize: none;
+  border: none;
+  border-radius: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.formText textarea:focus {
+  outline: none;
+  background-color: #ECECEC;
+}
+
+.buttonForm {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonForm button {
+  margin: 15px;
+  height: 30px;
+  width: 150px;
+  background-color: #084088;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  border-radius: 10px;
+  
+}
+
+.buttonForm button:hover {background-color: #063674}
+
+.buttonForm button:active {
+  background-color: #084088;
+  transform: translateY(2px);
 }

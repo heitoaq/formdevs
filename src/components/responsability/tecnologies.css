@@ -1,0 +1,19 @@
+.containerTec {
+  margin: 10px;
+}
+
+.tec {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  flex-wrap: wrap;
+}
+
+.tec legend {
+  padding: 0 10px 0 10px;
+  font-weight: bold;
+}
+
+.tec label {
+  display: inline-block;
+  font:12px;
+}
