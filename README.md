@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+<h2>Projeto para cadastro de desenvolvedores</h2>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  <h3>Primeiro Acesso ao projeto</h3>
+  <img style="width: 75%" src="https://user-images.githubusercontent.com/23507626/171290893-8d2fa07a-ec0f-443f-8ff1-67abb6e39ccd.jpg" />
+  
+  <h3>Ao tentar enviar o formulario sem alguma informação importante, aparecerá um erro mostrando onde preencher.</h3>
+  <img style="width: 75%" src="https://user-images.githubusercontent.com/23507626/171290930-5a83802a-a67c-4df2-8112-6d5735cff540.jpg" />
+  
+  <h3>Selecionar a área de desenvolvimento aparece as tecnologias respectivas a área selecionada.</h3>
+  <img style="width: 75%" src="https://user-images.githubusercontent.com/23507626/171291214-af6a5a0e-e3d2-4f08-b063-a39a28915272.jpg" />
+  
+  <h3>Enviar com as informações importantes preenchidas, aparecerá um quadro para confirmar as informações, se precisar corrigir, basta clicar em voltar.</h3>
+  <img style="width: 75%" src="https://user-images.githubusercontent.com/23507626/171291525-e3db0fda-537b-4438-9718-1b2025e7f329.jpg" />
+  
+  <h3>Ao confirmar as informações, é mostrado um agradecimento por fazer o cadastro e após clicar no botão "Até Mais!" o formulário é totalmente limpo.</h3>
+  <img style="width: 75%" src="https://user-images.githubusercontent.com/23507626/171291826-f7594881-bf62-44db-8f86-f8f7d993aa3c.jpg" />
+</div>
